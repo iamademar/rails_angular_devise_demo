@@ -40,10 +40,11 @@ group :development, :test do
   gem 'spring'
 end
 
-
-
-
 # Angular Integration
 gem 'bower-rails'
 gem 'angular-rails-templates'
+gem 'responders', '~> 2.0' 
 
+# Devise Authentication
+gem 'devise'
+gem 'angular_rails_csrf'

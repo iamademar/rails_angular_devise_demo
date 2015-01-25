@@ -13,7 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require angular
+//= require angular-devise
+//= require angular-route
+//= require angular-resource
+//= require angular-rails-templates
+
 
 //= require demo/app.js
-
+//= require_tree ./demo
 

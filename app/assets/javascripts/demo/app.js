@@ -5,7 +5,8 @@
     'templates',
     'ngRoute',
     'Devise',
-    'public.ctrl.signUp'
+    'public.ctrl.signIn',
+    'public.ctrl.sessions'
   ])
   .config(['$routeProvider',
     function($routeProvider) {
@@ -13,9 +14,10 @@
         .when('/', {
           templateUrl: 'demo/public/landing/landing.html'
         })
-        .when('/sign-up', {
-          templateUrl: 'demo/public/sign_up/sign_up.html'
+        .when('/sign_in', {
+          templateUrl: 'demo/public/sign_in/sign_in.html'
         });
+
     }
   ]);
 })();
